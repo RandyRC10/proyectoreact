@@ -1,0 +1,54 @@
+
+*{
+  font-family: sans-serif;
+}
+.text-custom{
+  color: #464646;
+}
+
+.button-primary-custom{
+  background-color: #0e4d74;
+  color: white;
+}
+
+.App-header {
+  background-color: #ffffff;
+  color: white;
+  border-bottom: solid 0.3rem #ed253d;
+}
+.App-body{
+  background-color: #0F7DBF;
+  color: white;
+}
+.App-footer{
+  height: 150px;
+  background-color: #0e4d74;
+  color: white;
+}
+.App-logo{
+  height: auto;
+  width: 160px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.img-container{
+  width:  400px;
+  text-align: center;
+  font-size: 20px;
+}
+.form-datos{
+  border-radius: 20px;
+  width: auto;
+  padding: 2rem;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  .form-datos {
+    width: 50%;
+  }
+}
